@@ -66,10 +66,14 @@ export default function BigChartBox() {
           bottom: 0,
         }}
       >
-        <CartesianGrid strokeDasharray="3 3" />
+        {/* <CartesianGrid strokeDasharray="3 3" /> */}
         <XAxis dataKey="name" />
         <YAxis />
-        <Tooltip />
+        <Tooltip
+          contentStyle={{ background: "#2a3447", borderRadius: "5px" }}
+          labelStyle={{ display: "none" }}
+          cursor={{ fill: "none" }}
+        />
         <Area
           type="monotone"
           dataKey="uv"

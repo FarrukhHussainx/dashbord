@@ -10,14 +10,14 @@ const ChartBox = (props) => {
           <img className="w-4 h-4" src={props.icon} alt="" />
           <h1 className="text-sm text-white">{props.title}</h1>
         </div>
-        <h1>{props.number}</h1>
+        <h1 className="text-white text-bold">{props.number}</h1>
         <Link style={{ color: props.color }} to="/">
           View all
         </Link>
       </div>
 
       <div>
-        <ResponsiveContainer width={50} height={30}>
+        <ResponsiveContainer width={80} height={30}>
           <LineChart data={props.chartData}>
             <Tooltip
               contentStyle={{ background: "transparent", border: "none" }}

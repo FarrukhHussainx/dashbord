@@ -12,10 +12,16 @@ const PieChartBox = () => {
     <div className="">
       <h1 className="text-white text-lg">Leads by Source</h1>
       <div className="">
-        <ResponsiveContainer width="99%" height={150}>
+        <ResponsiveContainer width="99%" height={250}>
           <PieChart>
             <Tooltip
-              contentStyle={{ background: "white", borderRadius: "5px" }}
+              contentStyle={{
+                background: "#2a3447",
+                borderRadius: "5px",
+                color: "#ffffff",
+              }}
+              labelStyle={{ display: "none" }}
+              cursor={{ fill: "none" }}
             />
             <Pie
               data={data}
