@@ -12,6 +12,9 @@ import Users from "./pages/users";
 import Login from "./pages/login";
 import Products from "./pages/products";
 import Layout from "./Layout";
+import Posts from "./pages/posts";
+import Orders from "./pages/orders";
+import Profile from "./pages/profile";
 
 function App() {
   const router = createBrowserRouter([
@@ -22,6 +25,9 @@ function App() {
         { path: "/", element: <Home /> },
         { path: "/users", element: <Users /> },
         { path: "/products", element: <Products /> },
+        { path: "/orders", element: <Orders /> },
+        { path: "/posts", element: <Posts /> },
+        { path: "/profile", element: <Profile /> },
       ],
     },
     {

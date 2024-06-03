@@ -5,7 +5,7 @@ import { userRows } from "../utils/data";
 const Users = () => {
   return (
     <>
-      <Table user={userRows} />
+      <Table data={userRows} />
     </>
   );
 };
