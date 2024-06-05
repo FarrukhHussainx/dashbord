@@ -1,9 +1,50 @@
-# React + Vite
+# The Charty - React Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I have developed a comprehensive admin dashboard utilizing React for the front-end framework, Chart.js for dynamic data visualization, and Tailwind CSS for efficient and responsive styling. This combination allows for a seamless user experience with interactive charts and an attractive, mobile-friendly design.
 
-Currently, two official plugins are available:
+## Live Demo:[The Charty](https://dashbord-mocha.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-  ![alt text](img.png)
+## Tech Stack
+
+**Client:** React, Charts, TailwindCSS
+
+<!-- **Server:** Node, Express -->
+
+## Screenshots
+
+![App Screenshot](img.png)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+## Feedback
+
+If you have any feedback, please reach out to me at farrukhhussainofficial@gmail.com
+
+## 🔗 Links
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://farrukhhussain.vercel.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/farrukh-hussain-1b8164259/)
