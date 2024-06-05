@@ -2,7 +2,7 @@
 
 I have developed a comprehensive admin dashboard utilizing React for the front-end framework, Chart.js for dynamic data visualization, and Tailwind CSS for efficient and responsive styling. This combination allows for a seamless user experience with interactive charts and an attractive, mobile-friendly design.
 
-## Live Demo:[The Charty](https://dashbord-mocha.vercel.app/)
+## Live Demo:[https://dashbord-mocha.vercel.app](https://dashbord-mocha.vercel.app/)
 
 ## Tech Stack
 
@@ -10,7 +10,7 @@ I have developed a comprehensive admin dashboard utilizing React for the front-e
 
 <!-- **Server:** Node, Express -->
 
-## Screenshots
+## Visual Representation
 
 ![App Screenshot](img.png)
 
@@ -19,13 +19,13 @@ I have developed a comprehensive admin dashboard utilizing React for the front-e
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/FarrukhHussainx/dashbord
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd dashbord
 ```
 
 Install dependencies
@@ -37,7 +37,7 @@ Install dependencies
 Start the server
 
 ```bash
-  npm run start
+  npm run dev
 ```
 
 ## Feedback
