@@ -151,6 +151,20 @@ export const topDealUsers = [
     email: "juan@gmail.com",
     amount: "2.134",
   },
+  {
+    id: 6,
+    img: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    username: "Augusta McGee",
+    email: "augusta@gmail.com",
+    amount: "1.932",
+  },
+  {
+    id: 7,
+    img: "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    username: "Angel Thomas",
+    email: "angel@gmail.com",
+    amount: "1.560",
+  },
 ];
 
 export const chartBoxUser = {

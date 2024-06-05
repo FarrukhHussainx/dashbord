@@ -5,12 +5,12 @@ import { Line, LineChart, ResponsiveContainer, Tooltip } from "recharts";
 const ChartBox = (props) => {
   return (
     <div className="flex justify-between gap-2 items-center">
-      <div>
-        <div className="flex items-center gap-1">
+      <div className="">
+        <div className="flex items-center gap-1 mb-3">
           <img className="w-4 h-4" src={props.icon} alt="" />
           <h1 className="text-sm text-white">{props.title}</h1>
         </div>
-        <h1 className="text-white text-bold">{props.number}</h1>
+        <h1 className="text-white text-bold mb-2">{props.number}</h1>
         <Link style={{ color: props.color }} to="/">
           View all
         </Link>

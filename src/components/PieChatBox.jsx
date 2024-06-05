@@ -39,16 +39,18 @@ const PieChartBox = () => {
       </div>
       <div className="flex text-xs text-white gap-2">
         {data.map((item) => (
-          <div className="" key={item.name}>
-            <div className=" flex items-center justify-center gap-1">
-              <div
-                className="w-2 h-2 rounded-full"
-                style={{ backgroundColor: item.color }}
-              />
-              <span>{item.name}</span>
+          <>
+            <div className="" key={item.name}>
+              <div className=" flex items-center  gap-1">
+                <div
+                  className="w-2 h-2 rounded-full "
+                  style={{ backgroundColor: item.color }}
+                />
+                <span>{item.name}</span>
+              </div>
+              <span className="ml-3">{item.value}</span>
             </div>
-            <span>{item.value}</span>
-          </div>
+          </>
         ))}
       </div>
     </div>
